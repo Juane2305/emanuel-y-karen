@@ -34,7 +34,7 @@ const Invitacion = () => {
         <div className="relative z-10 flex flex-col items-center space-y-5">
           <p className="text-white text-2xl">¡Nos casamos!</p>
           <h1 className="text-6xl md:text-8xl font-eleganteTitle text-white z-10 italic">
-            Karen & Emanuel
+            Emanuel & Karen
           </h1>
           <div className="flex items-center justify-center py-6 px-4 border-y-2 border-dashed border-gold">
             <p className="text-gold italic text-2xl">Sábado, 24 de Enero de 2026</p>
@@ -64,7 +64,7 @@ const Invitacion = () => {
             titulo="Cronograma"
             eventos={[
               { hora: "18:00", descripcion: "Llegada de invitados" },
-              { hora: "19:00", descripcion: "Civil + ceremonia religiosa" },
+              { hora: "19:00", descripcion: "Ceremonia Civil" },
               { hora: "19:30", descripcion: "Votos" },
               { hora: "20:00", descripcion: "Refrigerio + fotos + bebidas frescas" },
               { hora: "21:00", descripcion: "Barra libre" },
